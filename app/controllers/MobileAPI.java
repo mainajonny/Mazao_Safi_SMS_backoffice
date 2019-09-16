@@ -115,7 +115,7 @@ public class MobileAPI extends Controller {
             String numbers = "&to=" + final_phone_tosend;
 
             try{
-                URL obj = new URL("https://api.africastalking.com/restless/send?username=mainajonny&Apikey=XXX" + numbers + message);
+                URL obj = new URL("https://api.africastalking.com/restless/send?username=mainajonny&Apikey=894ed3da61456fbf80e2eb690271e87f6e8d1254e0c982a084de059f595166bd" + numbers + message);
                 HttpURLConnection con = (HttpURLConnection) obj.openConnection();
                 con.setRequestMethod("GET");
                 int responseCode = con.getResponseCode();
@@ -193,7 +193,7 @@ public class MobileAPI extends Controller {
             String numbers = "&to=" + final_phone_tosend;
 
             try{
-                URL obj = new URL("https://api.africastalking.com/restless/send?username=mainajonny&Apikey=XXX" + numbers + message);
+                URL obj = new URL("https://api.africastalking.com/restless/send?username=mainajonny&Apikey=894ed3da61456fbf80e2eb690271e87f6e8d1254e0c982a084de059f595166bd" + numbers + message);
                 HttpURLConnection con = (HttpURLConnection) obj.openConnection();
                 con.setRequestMethod("GET");
                 int responseCode = con.getResponseCode();
